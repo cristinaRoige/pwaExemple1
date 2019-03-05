@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>PWA</title>
+  <!-- Configuració del viewport per que accepti el responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <!-- Configuració favicon -->
+  <link rel="shortcut icon" type="image/ico" href="img/faviconPWA.png">
+   <!-- PWA -->
+  <!-- metadada del color de l'aplicació -->
+  <meta name="theme color" content="#ff7062" />
+ <!-- metadada indica aplicació optimitzada per mobil -->
+ <meta name="MobileOptimized" content="width" /> 
+ <meta name="HandheldFriendly" content="true" />
+ <!-- Meta etiquetes PWA per Apple -->
+ <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+ <!-- icona PWA apple -->
+ <link rel="apple-touch-icon" href="img/faviconPWA.png">
+ <link rel="apple-touch-startup-image" href="img/faviconPWA.png">
+<!-- Configuració General PWA -->
+<link rel="manifest" href="manifest.json" />
+
+
+  <!-- Fulla d'estils CSS -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  
+  <!-- CDN JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- main.js -->
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="js/scroll.js"></script>
+  <!-- Carrega fontawesome -->
+  <script defer src="js/fontawesome/all.js"></script> <!--load all styles -->
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script> -->
+  
+</head>
+<body>
+  <header id="main-header">
+  	<div class="container">
+	  	<div id="logo">
+	  		<h1>Exemple PWA</h1>
+	  	</div> <!-- tanca logo -->
+	  	<div id="menu">
+	  		<ul>
+	  			<li>
+	  				<a href="#main-header">Inici</a>
+	  			</li>
+	  			<li>
+	  				<a href="#services">Serveis</a>
+	  			</li>
+	  			<li>
+	  				<a href="#videos">Videos</a>
+	  			</li>
+	  			<li>
+	  				<a href="#footer">contactes</a>
+	  			</li>
+	  		</ul>
+	  	</div> <!-- tanca menu -->
+  	</div> <!-- tanca container -->  	
+  </header> <!-- tanca header -->
+
+  <div class="clearfix"></div>
+
+  <div id="slider">
+  	<div class="container"> 
+  		<h2>Exemple de Progresive Web Apps</h2>
+  	</div> <!-- tanca container -->
+  </div> <!--tanca slider -->
+  
+  <div id="services">
+  	<div class="container">
+	  	<h2 class="subheader">Serveis</h2>
+	  	<div class="service">
+	  		<i class="fas fa-grin-beam"></i>
+	  		<h3>Servei grid beam</h3>
+	  		<p>Text de prova per fer una prova de PWA aquest seria un exemple.</p>
+	  	</div>
+
+	  	<div class="service">
+	  		<i class="fas fa-grin-tears"></i>
+	  		<h3>Servei grid tears</h3>
+	  		<p>Text de prova per fer una prova de PWA aquest seria un exemple.</p>
+	  	</div>
+
+	  	<div class="service">
+	  		<i class="fas fa-grin-wink"></i>
+	  		<h3>Servei grid wink</h3>
+	  		<p>Text de prova per fer una prova de PWA aquest seria un exemple.</p>
+	  	</div>
+  	</div>
+  </div><!-- tanca service -->
+
+  <div class="clearfix"></div>
+
+  <div id="videos">
+  	<div class="container">
+  		<h2 class="subheader">Videos</h2>
+  		<div class="video">
+  			<iframe width="560" height="315" src="https://www.youtube.com/embed/BeH2eH9iPw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  			<p>Videoclip Oficial "Una lluna a l'aigua", cançó que forma part del tercer disc de Txarango "El Cor de la Terra", dirigit per Mashup.Barcelona. </p>
+  		</div>
+  		<div class="video">
+  			<iframe width="560" height="315" src="https://www.youtube.com/embed/9iQwWp3ykRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  			<p>Videoclip Oficial "caminem Lluny", cançó que forma part del disc de Doctor Prats "Venim de lluny" de la discogràfica Música Global</p>
+  		</div>
+
+  		<div class="video">
+  			<iframe width="560" height="315" src="https://www.youtube.com/embed/Z5LVw2abUlw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  			<p>Videoclip Oficial "Fins Que Arribi l'alba", cancçó que forma part del disc dels Catarres "Tots Els Meus Principis" de la discogràfica Música Global Discogràfica S.L.</p>
+  		</div>
+  	</div> <!-- tanca container -->
+  </div> <!-- tanca video -->
+
+  <div class="clearfix"></div>
+
+  <footer id="footer">
+  	<div class="container">
+  		<h2 class="subheader">Contacte</h2>
+  		<p>Qualsevol dubte posa't en contacte</p>
+  		<ul>
+  			<li>
+  				<a href="#">
+  					<i class="fab fa-twitter"></i>
+  				</a>
+  			</li>
+  			<li>
+  				<a href="#">
+  					<i class="fab fa-facebook-f"></i>
+  				</a>
+  			</li>
+  			<li>
+  				<a href="#">
+  					<i class="fab fa-instagram"></i>
+  				</a>
+  			</li>
+  		</ul>
+  		<div class="clearfix"></div>
+  	</div>
+  </footer>
+</body>
+</html>
